@@ -36,6 +36,29 @@
 
         console.log("5" - "6")
 
+
+        //Function Building
+
+        let num7 = function add7(num){return num+7;};
+        console.log(num7(5));
+
+        let multi = (a,b) => a*b;
+        console.log(multi(4,3));
+
+        function capitalize(word){
+            let letter = word.slice(0,1).toUpperCase();
+            return letter + word.slice(1);
+        }
+
+        console.log(capitalize("hello world"));
+
+        function lastLetter(name){
+            let size = name.length;
+            return name.slice(size-1);
+        }
+
+        console.log(lastLetter("Luxembourg"));
+
     </script>
     
 </body>
